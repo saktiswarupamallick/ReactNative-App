@@ -8,11 +8,12 @@ import {
   FlatList,
 } from "react-native";
 import { useRouter } from "expo-router";
-
 import styles from "./welcome.style";
 import { icons, SIZES } from "../../../constants";
 
 const jobTypes = ["Full-time", "Part-time", "Contractor"];
+
+
 
 const Welcome = ({ searchTerm, setSearchTerm, handleClick }) => {
   const router = useRouter();
@@ -21,7 +22,7 @@ const Welcome = ({ searchTerm, setSearchTerm, handleClick }) => {
   return (
     <View>
       <View style={styles.container}>
-        <Text style={styles.userName}>Hello <Omkar></Omkar></Text>
+        <Text style={styles.userName}>Hello Omkar</Text>
         <Text style={styles.welcomeMessage}>Find your perfect job</Text>
       </View>
 
