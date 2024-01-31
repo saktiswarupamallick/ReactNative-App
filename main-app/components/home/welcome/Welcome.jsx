@@ -69,3 +69,4 @@ const Welcome = ({ searchTerm, setSearchTerm, handleClick }) => {
 };
 
 export default Welcome;
+ih
